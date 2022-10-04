@@ -1,3 +1,6 @@
 import '../styles/styles.css'
 
-alert("Preparing dishes")
+
+if (module.hot) {
+    module.hot.accept ()
+}
